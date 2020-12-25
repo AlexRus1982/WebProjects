@@ -1,0 +1,182 @@
+*
+{
+    margin:         0;
+    padding:        0;
+    box-sizing:     border-box;
+    font-family:    sans-serif;
+}
+
+body
+{
+    display:            flex;
+    justify-content:    center;
+    align-items:        center;
+    min-height:         100vh;
+    background:         #fff;
+}
+
+h1 
+{
+    position:       relative;
+    font-size:      15em;
+    font-weight:    normal;
+    font-family:    Lassus;
+    color:          #000;
+    line-height:    1.0em;
+    outline:        none;
+    text-align:     center;
+    user-select:    none;
+    transform:      rotate(0deg);
+}
+
+h2 
+{
+    position: relative;
+    font-size: 5em;
+    font-weight: normal;
+    color: #000;
+    line-height: 1.0em;
+    outline: none;
+    text-align: center;
+    user-select: none;
+    transform: rotate(0deg);
+}
+
+table
+{
+    border: 0px solid blue;
+    margin: 0;
+    padding: 0;
+}
+
+tr
+{
+    border: 0px solid blue;
+    margin: 0;
+    padding: 0;
+}
+
+td 
+{
+    width:      550px;
+    border:     0px solid blue;
+    text-align: center;
+    margin: 0px;
+}
+
+.main
+{
+    height: 310px;
+}
+
+.maintd
+{
+    border: 1px solid black;
+    margin: 0;
+}
+
+
+.middle 
+{
+    align-content:center;
+}
+
+.pushed 
+{
+    background: #9F9F9F;
+}
+
+.pushedOcta 
+{
+    background: #DFDFDF;
+}
+
+div 
+{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#buttonFill,
+#buttonFillRight,
+#buttonFillLeft,
+#buttonFillAll
+{
+    position: relative;
+    display: inline-block;
+    margin-left: -1px;
+    padding: 0px;
+    width: 50px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+#buttonFillTitleSmall {
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    width: 14px;
+    height: 8px;
+}
+
+
+#buttonFillSmall,
+#buttonFillRightSmall,
+#buttonFillLeftSmall,
+#buttonFillAllSmall {
+    position: relative;
+    display: inline-block;
+    margin-left: -1px;
+    padding: 0px;
+    width: 14px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+
+#buttonFillRight::before,
+#buttonFillLeft::before,
+#buttonFillAll::before,
+#buttonFillAll::after
+{
+    content: "";
+    position:absolute;
+    top:0px;
+    left:34px;
+    width: 14px;
+    height: 75%;
+    background:#000000;
+}
+
+#buttonFillLeft::before
+{
+    left:0px;
+}
+
+#buttonFillAll::after
+{
+    left:0px;
+}
+
+
+#buttonFillRightSmall::before,
+#buttonFillLeftSmall::before,
+#buttonFillAllSmall::before,
+#buttonFillAllSmall::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 8px;
+    width: 4px;
+    height: 75%;
+    background: #000000;
+}
+
+#buttonFillLeftSmall::before {
+    left: 0px;
+}
+
+#buttonFillAllSmall::after {
+    left: 0px;
+}

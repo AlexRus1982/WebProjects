@@ -1,0 +1,63 @@
+*
+{
+    margin:         0;
+    padding:        0;
+    box-sizing:     border-box;
+    font-family:    sans-serif;
+}
+
+body
+{
+    display:            inline-block;
+    background:         #fff;
+}
+
+h1 
+{
+    position:       relative;
+    font-size:      10em;
+    font-weight:    normal;
+    font-family:    Lassus;
+    color:          #000;
+    line-height:    1.0em;
+    outline:        none;
+    text-align:     center;
+    user-select:    none;
+    transform:      rotate(0deg);
+}
+
+h2 
+{
+    height: 70px;
+    position: relative;
+    font-size: 4em;
+    font-weight: normal;
+    color: #000;
+    line-height: 1.0em;
+    outline: none;
+    text-align: center;
+    user-select: none;
+    transform: rotate(0deg);
+}
+
+table
+{
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+tr
+{
+    border: 0px solid blue;
+    margin: 0;
+    padding: 0;
+}
+
+td 
+{
+    border:     1px solid blue;
+    text-align: center;
+    width: 200px;
+    margin: 0px;
+}

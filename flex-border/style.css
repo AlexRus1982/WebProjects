@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(floor.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.book {
+    position: absolute;
+    top: 0;
+    width: 340px;
+    height: 510px;
+    background: url(bg.jpg);
+    transform: rotate(-8deg) translate(0px, 60px);
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.9);
+    transition: 0.5s;
+    border-radius: 34% 64% 77% 26% / 73% 54% 45% 19%;
+}
+
+.book:hover {
+    position: absolute;
+    top: 0;
+    width: 340px;
+    height: 510px;
+    background: url(bg.jpg);
+    transform: rotate(-8deg) translate(0px, 60px);
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.9);
+    transition: 0.5s;
+    border-radius: 34% 4% 57% 6% / 3% 24% 15% 38%;
+}
+
+.sheet {
+    position: absolute;
+    top: 0;
+    width: 340px;
+    height: 510px;
+    background: #fff;
+    transform: rotate(-20deg) translate(0px, 60px);
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.9);
+    transition: 0.5s;
+}

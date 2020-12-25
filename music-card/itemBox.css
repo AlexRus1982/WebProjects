@@ -1,0 +1,63 @@
+*
+{
+    margin:         0;
+    padding:        0;
+    box-sizing:     border-box;
+    font-family:    sans-serif;
+}
+
+body
+{
+    display:            inline-block;
+    background:         #fff;
+}
+
+button {
+    width: 415px;
+    height: 24px;
+    font-weight: normal;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+select.note 
+{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    font-size: 10em;
+    font-weight: normal;
+    font-family: Lassus;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+option.note {
+    width: 200px;
+    height: 200px;
+    font-size: 1em;
+    font-weight: normal;
+    font-family: Lassus;
+    text-align: center;
+}
+
+select.noteName {
+    width: 415px;
+    height: 24px;
+    font-weight: normal;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+option.noteName {
+    width: 415px;
+    height: 24px;
+    font-size: 1em;
+    font-weight: normal;
+    font-family: Lassus;
+    line-height: 1.0em;
+    text-align: center;
+}
