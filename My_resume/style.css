@@ -61,10 +61,10 @@ body {
     left: 10%;
     width: 80%;
     height: 80%;
-    background: #ffffff7F;
+    background: #ffffff2F;
     backdrop-filter: blur(5px);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 255);
-    border: 1px solid rgba(255, 255, 255, 128);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     z-index: 1;
     border-radius: 15px;
 }
