@@ -9,10 +9,11 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(floor.jpg);
+    background: url(Imgs/floor.jpg);
     /*background: #ffffff;*/
     background-attachment: fixed;
     background-size: cover;
+    overflow: hidden;
 }
 
 .first-circle {
@@ -57,9 +58,9 @@ body {
 
 .panel {
     position: absolute;
-    top: 10%;
-    left: 10%;
-    width: 80%;
+    /*top: 10%;*/
+    /*left: 10%;*/
+    width: 50%;
     height: 80%;
     background: #ffffff2F;
     backdrop-filter: blur(5px);
@@ -67,26 +68,33 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.5);
     z-index: 1;
     border-radius: 15px;
+    padding: 15px;
 }
 
 .book {
     position: absolute;
-    top: 0;
+    top: 200px;
+    left: 150px;
     width: 340px;
     height: 510px;
-    background: url(bg.jpg);
+    background: #0000FF;
     transform: rotate(-8deg) translate(0px, 60px);
-    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.9);
-    transition: 0.5s;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.9);
+    font-size: 80px;
+    padding: 40px;
+    color: #FFFFFF;
 }
 
 .sheet {
     position: absolute;
-    top: 0;
+    top: 20px;
+    left: 760px;
     width: 340px;
     height: 510px;
     background: #fff;
-    transform: rotate(-20deg) translate(0px, 60px);
-    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.9);
-    transition: 0.5s;
+    transform: rotate(20deg) translate(0px, 60px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+    font-size: 80px;
+    padding: 40px;
+    color: #000000;
 }
