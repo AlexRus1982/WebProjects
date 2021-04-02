@@ -2,12 +2,19 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>3D Text</title>
+        <title>CSS 3D Text</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 contenteditable="false">
-            Awesome 3D Text
-        </h1>
+        <div id="text" data-text="Coding - it's life &nbsp&nbsp&nbsp&nbsp C++ C# Python Java">
+            Coding - it's life &nbsp&nbsp&nbsp&nbsp C++ C# Python Java
+        </div>
+        <script type="text/javascript">
+            var text = document.getElementById("text");
+            var shadow = "";
+            for(var i = 0; i < 30; i++)
+                shadow += (shadow ? ", " : "") + -i * 1 + "px " + i * 1 + "px 0 #D9D9D9";
+            text.style.textShadow = shadow;
+        </script>
     </body>
 </html>

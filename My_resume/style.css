@@ -60,15 +60,41 @@ body {
     position: absolute;
     /*top: 10%;*/
     /*left: 10%;*/
-    width: 50%;
-    height: 80%;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
     background: #ffffff2F;
     backdrop-filter: blur(5px);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.5);
     z-index: 1;
     border-radius: 15px;
-    padding: 15px;
+}
+
+.button{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 30px;
+    background: #0050fc;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    z-index: 0;
+    border-radius: 3px;
+    user-select: none;
+}
+
+.button:nth-child(1){
+    left: 50px;
+    width: 100px;
+}
+
+.button:nth-child(2){
+    left: 250px;
+}
+
+.button:nth-child(3){
+    left: 450px;
 }
 
 .book {
@@ -83,6 +109,7 @@ body {
     font-size: 80px;
     padding: 40px;
     color: #FFFFFF;
+    user-select: none;
 }
 
 .sheet {
@@ -97,4 +124,5 @@ body {
     font-size: 80px;
     padding: 40px;
     color: #000000;
+    user-select: none;
 }
