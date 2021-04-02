@@ -28,7 +28,7 @@ body
     user-select: none;
     transform: rotate( -28deg) skewX(25deg);
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: -10px;
 }
 
 #text::before{
