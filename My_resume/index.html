@@ -9,34 +9,19 @@
         <div id="text" data-text="Coding - it's life &nbsp&nbsp&nbsp&nbsp C++ C# Python Java">
             Coding - it's life &nbsp&nbsp&nbsp&nbsp C++ C# Python Java
         </div>
-        <!--<div class="first-circle"></div>
-        <div class="second-circle"></div>-->
-        <div class="panel"></div>
-        <!-- <div class="sheet"><b>Delphy</b></br><b>C#</b></br><b>Php</b></div>
-        <div class="book"><b>C++</b></br><b>Python</b></br><b>Java</b></div>-->
         <div class="buttons">
-            <div class="button">About me</div>
-            <div class="button">Skills</div>
-            <div class="button">Contacts</div>
-            <div class="button">Download</div>
+            <div class="button" order="0">About me</div>
+            <div class="button" order="1">Skills</div>
+            <div class="button" order="2">Contacts</div>
+            <div class="button" order="3">Download</div>
+        </div>
+        <div class="panel">
+            <div class="page"><h1>&nbspAbout me</h1><br>123</div>
+            <div class="page"><h1>&nbspSkills</h1></div>
+            <div class="page"><h1>&nbspContacts</h1></div>
+            <div class="page"><h1>&nbspDownload</h1></div>
         </div>
             
-        <script type="text/javascript">
-            
-            var text = document.getElementById("text");
-            var shadow = "";
-            for(var i = 0; i < 30; i++)
-                shadow += (shadow ? ", " : "") + -i * 1 + "px " + i * 1 + "px 0 #D9D9D9";
-            text.style.textShadow = shadow;
-
-            var buttons = document.getElementsByClassName("button");
-            for(var i = 0; i < buttons.length; i++)
-                buttons[i].addEventListener("click", function(){
-                    var buttons = document.getElementsByClassName("button active");
-                    for(var i = 0; i < buttons.length; i++)
-                        buttons[i].classList.toggle("active");
-                    this.classList.toggle("active");
-                });
-        </script>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
